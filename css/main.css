@@ -124,8 +124,8 @@ body > section,
 .mt50 {
 	margin-top: 50px;
 }
-.mt70 {
-	margin-top: 70px;
+.mb25 {
+	margin-bottom: 25px;
 }
 .mb50 {
 	margin-bottom: 50px;
@@ -368,16 +368,57 @@ top: -8px;
 }
 .strategy-item .fa-plus {
 	font-size: 50px;
-	opacity: 0.15;
+	opacity: 0.3;
 	line-height: 100px;
 	margin-bottom: 25px;
+	color: #FFF;
 }
 .strategy-icon {
 	width: 100px; 
+	height: 100px;
   color: #11cd86;
 	margin: 0 auto 15px;
 }
-
+.strategy-item:hover .strategy-icon {
+	-webkit-transition: all 450ms ease-out 0s;	
+	   -moz-transition: all 450ms ease-out 0s;
+		 -o-transition: all 450ms ease-out 0s;
+		    transition: all 450ms ease-out 0s;
+		  
+	-webkit-transform: rotateY(360deg) scale(1,1);
+	   -moz-transform: rotateY(360deg) scale(1,1);
+		-ms-transform: rotateY(360deg) scale(1,1);
+		 -o-transform: rotateY(360deg) scale(1,1);
+			transform: rotateY(360deg) scale(1,1);
+}
+.strategy-icon.bg-1 {
+	background-image:url(../img/altcoin-icon.png);
+}
+.strategy-icon.bg-2 {
+	background-image:url(../img/ico-icon.png);
+}
+.strategy-item:hover .strategy-icon.bg-1 {
+	background-image:url(../img/altcoin-icon-over.png);
+}
+.strategy-item:hover .strategy-icon.bg-2 {
+	background-image:url(../img/ico-icon-over.png);
+}
+.strategy-icon.bg-3 {
+	width: 150px;
+	height: 150px;
+	background-image:url(../img/knowhow/shariah.png);
+}
+.strategy-icon.bg-4 {
+	width: 150px;
+	height: 150px;
+	background-image:url(../img/knowhow/arabic.png);
+}
+.strategy-item:hover .strategy-icon.bg-3 {
+	background-image:url(../img/knowhow/shariah-over.png);
+}
+.strategy-item:hover .strategy-icon.bg-4 {
+	background-image:url(../img/knowhow/arabic-over.png);
+}
 .strategy-desc {
   position: relative;
   top: 5px;
@@ -385,24 +426,32 @@ top: -8px;
 }
 
 .strategy-desc h3 {
-  color: #062033;
+  color: #FFF;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 25px;
 	display: block;
 }
-.strategy hr{
+.strategy-item:hover {
+	cursor: pointer;
+}
+.strategy-item:hover .strategy-desc h3 {
+  color: #11cd86;
+}
+.strategy2 hr{
 	float: left;
 	width: 100%;
+	margin-top: 50px;
 	margin-bottom: 50px;
+	border-top: rgba(255,255,255,0.2) 1px dotted;
 }
 @media (min-width: 1200px){
-	.markets .container,.strategy .container,.strategy3 .container,.volume.container{
+	.markets .container,.crypto.container,.strategy3 .container,.volume.container, .dominate.container{
 		width: 750px;
 	}
 }
 @media (min-width: 992px){
-	.markets .container,.strategy .container,.strategy3 .container, .volume.container{
+	.markets .container,.crypto.container,.strategy3 .container, .volume.container, .dominate.container{
 		width: 750px;
 	}
 }
@@ -418,18 +467,19 @@ top: -8px;
 	display: inline;
 }
 
-.strategy {
+.strategy2 {
 	background-color: #f4f7f9;
 }
-.strategy .devider {
+.strategy2 .devider {
 	margin-top: 0;
 	margin-bottom: 15px;
 }
 
-.strategy .devider span {
+.strategy2 .devider span {
 	font-size: 13px;
 	font-weight: 400;
 	display: inline;
+	color: #FFF;
 }
 #strategy2 {
 	background:#3f4657 url("../img/parallax/earth.png") 50% 50% no-repeat;
@@ -493,6 +543,25 @@ top: -8px;
 .know-how-item:hover h4 {
   color: #11cd86;
 }
+.volume-wrap:after {
+	content:" "; display:block; clear:both;
+}
+.volume-wrap.volume-1 {
+	width: 210px;
+	margin: 0 auto;
+}
+.volume-wrap.volume-2 {
+	width: 315px;
+	margin: 0 auto;
+}
+.volume-wrap h4 {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 20px 0;
+	text-align: center;
+}
 .volume .sec-title{
 	float: left;
 	width: 100%;
@@ -507,6 +576,11 @@ top: -8px;
 	font-size: 22px;
 	font-weight: 200;
 }
+.volume .plus {
+	font-size: 50px;
+	color:rgba(255,255,255,0.3);
+	text-align: center;
+}
 .volume-thumb {
   width: auto;
   position: relative;
@@ -516,15 +590,10 @@ top: -8px;
 .volume-thumb img {
 	margin: 0 auto;
 }
-.volume-item {
-	margin-top: 50px;
-}
-.volume-item h4 {
+.volume-item p {
   color: #FFF;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  margin: 25px 0 8px;
+	padding-bottom: 20px;
+	font-weight: 300;
 }
 .volume-thumb:hover {
 	cursor: pointer;
@@ -533,6 +602,18 @@ top: -8px;
 		-ms-transform: scale(1.1,1.1);
 		 -o-transform: scale(1.1,1.1);
 		    transform: scale(1.1,1.1);
+}
+.dominate.container {
+	width: 750px;
+}
+.dominate .sec-title{
+	float: left;
+	width: 100%;
+}
+.dominate .sec-title h4 {
+	color: #FFF;
+	margin-top: 5px;
+	font-weight: 300;
 }
 .strategy3-icon {
 	width: 100px;
