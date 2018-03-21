@@ -3,10 +3,7 @@
 /* ========================================================================= */
 
 jQuery(window).load(function(){
-
-	//$("#preloader").fadeOut("slow");
-	$("#preloader").delay(2000).fadeOut();
-
+	$("#preloader").fadeOut("slow");
 });
 
 // import $ from 'jquery'
