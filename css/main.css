@@ -38,7 +38,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #11cd86;
+    color: #00d2ff;
 }
 
 h1, h2, h3,
@@ -64,7 +64,7 @@ hr{
 }
 
 span.color {
-	color: #11cd86;
+	color: #00d2ff;
 }
 
 body > section,
@@ -75,7 +75,7 @@ body > section,
 .sec-title {}
 
 .sec-title h2 {
-  color: #11cd86;
+  color: #00d2ff;
   font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
@@ -208,7 +208,7 @@ body > section,
 
 .carousel-caption p:before,
 .carousel-caption p:after {
-color: #0feb9e;
+color: #00d2ff;
 content: "___";
 position: relative;
 top: -8px;
@@ -299,7 +299,7 @@ top: -8px;
   line-height: 24px;
   margin-top: 15px;
   text-transform: uppercase;
-	color: #11cd86;
+	color: #00d2ff;
 	font-weight: 600;
 }
 .ranking {
@@ -312,9 +312,9 @@ top: -8px;
 	margin: 50px 0 0;
 } 
 .service-icon {
-  border: 1px solid #11cd86;
+  border: 1px solid #00d2ff;
   border-radius: 50%;
-  color: #11cd86;
+  color: #00d2ff;
   float: left;
 }
 
@@ -341,7 +341,7 @@ top: -8px;
   font-size: 13px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #11cd86;
+	color: #00d2ff;
 	margin-bottom: 5px;
 }
 .ranking-desc strong {
@@ -377,7 +377,7 @@ top: -8px;
 .strategy-icon {
 	width: 100px; 
 	height: 100px;
-  color: #11cd86;
+  color: #00d2ff;
 	margin: 0 auto 15px;
 }
 .strategy-item:hover .strategy-icon {
@@ -437,7 +437,7 @@ top: -8px;
 	cursor: pointer;
 }
 .strategy-item:hover .strategy-desc h3 {
-  color: #11cd86;
+  color: #00d2ff;
 }
 .strategy2 hr{
 	float: left;
@@ -542,7 +542,7 @@ top: -8px;
 		    transform: scale(1.1,1.1);
 }
 .know-how-item:hover h4 {
-  color: #11cd86;
+  color: #00d2ff;
 }
 .volume-wrap:after {
 	content:" "; display:block; clear:both;
@@ -645,12 +645,12 @@ top: -8px;
 	transition: all .2s ease-in-out; 
 }
 .strategy3-item:hover .strategy3-icon{
-	color: #11cd86;
-	border-color: #11cd86;
+	color: #00d2ff;
+	border-color: #00d2ff;
 	cursor: pointer;
 }
 .strategy3-item:hover .strategy3-desc h4{
-	color: #11cd86;
+	color: #00d2ff;
 	cursor: pointer;
 }
 
@@ -730,12 +730,12 @@ top: -8px;
 	transition: all .2s ease-in-out; 
 }
 .biz-section .biz-item:hover{
-	color: #11cd86;
+	color: #00d2ff;
 	font-size: 16px;
 	cursor: pointer;
 }
 .biz-section .biz-item:hover .dot {
-	background-color: #11cd86;
+	background-color: #00d2ff;
 }
 
 .overlay {
@@ -849,7 +849,7 @@ top: -8px;
 }
 
 .goal-item:hover h4 {
-  color: #11cd86;
+  color: #00d2ff;
 }
 
 #back-top {
@@ -925,5 +925,5 @@ top: -8px;
 */
 svg path,
 svg rect {
-  fill: #11cd86;
+  fill: #00d2ff;
 }
