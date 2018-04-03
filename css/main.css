@@ -138,7 +138,7 @@ body > section,
 .goal .devider{margin-top:0;margin-bottom:15px;}
 .goal .devider span{font-size:13px;font-weight:400;display:inline;}
 #biz{background:#3f4657 url("../img/parallax/block-chain.png") 50% 50% no-repeat;background-attachment:fixed;background-size:cover;padding:0;}
-.biz .parallax-overlay{padding-bottom:80px;}
+.biz .parallax-overlay{padding:120px 0;}
 .biz .devider{margin-top:0;margin-bottom:15px;}
 .biz .devider:before,
 .biz .devider:after{color:#737C85;}
