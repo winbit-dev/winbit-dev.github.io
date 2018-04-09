@@ -23,10 +23,12 @@ body > section,
 .sec-sub-title p{font-weight:600;line-height:24px;font-size:18px;color:#5b646e;}
 .devider{margin-top:30px;}
 .devider i{color:#cccccc;}
+@media (min-width: 640px) {
 .devider:before,
 .devider:after{content:"______________________";color:#e6e8ea;position:relative;bottom:6px;}
 .devider:before{right:10px;}
 .devider:after{left:10px;}
+}
 .mt50{margin-top:50px;}
 .mt100{margin-top:100px;}
 .mb25{margin-bottom:25px;}
