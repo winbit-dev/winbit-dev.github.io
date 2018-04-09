@@ -237,7 +237,7 @@ svg rect{fill:#00d2ff;}
 .carousel .mission.content .cont li>.flag{width: 90px; height: 90px; display:inline-block; margin: 5px;}
 .carousel .mission.content .cont li>.flag>img{width: 100%;}
 .carousel .mission.content .cont li.plus{font-size: 60px; padding:50px 0; height: auto; color: #d9d9d9;}
-.carousel .mission.content .cont>li>p{font-size: 20px; font-weight: 800; color: #062033; margin-top: 25px;}
+.carousel .mission.content .cont>li>p{font-size: 18px; font-weight: 800; color: #062033; margin-top: 25px;}
 .carousel .mission.content .cont>li>p>span{font-size: 16px; color:#6a737b; display: block; }
 .carousel .mission.content .cont.type02>li>img,
 .carousel .mission.content .cont.type03>li>img,
