@@ -273,5 +273,9 @@ $(document).ready(function(){
             scrollTop: 0
         }, 1500, "easeInOutExpo")
     });
-	
+		$(".scroll-downs").click(function() {
+			 $('html, body').animate({
+					 scrollTop: $("#markets").offset().top-52
+			 }, 1200, "easeInOutExpo");
+		});
 });
