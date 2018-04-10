@@ -195,7 +195,7 @@ body > section,
 .goal-item:hover .overlay{cursor:pointer;opacity:1;filter:alpha(opacity=100);-webkit-transform:rotateY(0deg) scale(1,1);-moz-transform:rotateY(0deg) scale(1,1);-ms-transform:rotateY(0deg) scale(1,1);-o-transform:rotateY(0deg) scale(1,1);transform:rotateY(0deg) scale(1,1);}
 .goal-item:hover h4{color:#00d2ff;}
 #back-top{width:40px;height:40px;line-height:40px;text-align:center;background-color:rgba(44,52,69,0.8);font-size:18px;bottom:20px;position:fixed;right:25px;z-index:9;}
-.scroll-downs{position:absolute;bottom:20px;right:0;left:0;margin:auto;width:80px;height:60px;}
+.scroll-downs{position:absolute;bottom:20px;right:0;left:0;margin:auto;width:80px;height:60px; z-index: 1000;}
 .scroll-downs p{margin:5px 0 0 0;color:#FFF;}
 .mousey{width:3px;padding:5px 10px;height:25px;border:1px solid #fff;border-radius:20px;opacity:0.75;box-sizing:content-box;margin:0 auto;}
 .scroller{width:3px;height:5px;border-radius:50%;background-color:#FFF;animation-name:scroll;animation-duration:2.2s;animation-timing-function:cubic-bezier(.15,.41,.69,.94);animation-iteration-count:infinite;}
