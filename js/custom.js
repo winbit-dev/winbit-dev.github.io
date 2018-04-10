@@ -179,11 +179,23 @@ $(document).ready(function(){
 	
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
-            $("#navigation").css("background-color","#11cd86");
+            $("#navigation").css("background-color","rgba(63, 70, 87, 0.9)");
         } else {
-            $("#navigation").css("background-color","rgba(62, 69, 87, 0.2)");
+            $("#navigation").css("background-color","rgba(63, 70, 87, 0)");
         }
     });
+	
+	$(function() {
+    $(".navbar-toggle").click(function(){
+        if($(".navbar-collapse").hasClass("in")){
+            $(".navbar-toggle>.fa-bars").removeClass("hide").addClass("show");
+						$(".navbar-toggle>.fa-times").removeClass("show").addClass("hide");
+        }else{
+            $(".navbar-toggle>.fa-bars").removeClass("show").addClass("hide");
+						$(".navbar-toggle>.fa-times").removeClass("hide").addClass("show");
+        }
+    });
+	});
 	
 	/* ========================================================================= */
 	/*	Fix Slider Height
