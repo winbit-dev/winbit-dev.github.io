@@ -255,11 +255,14 @@ svg rect{fill:#00d2ff;}
 .carousel .mission.content .cont.type02>li>img,
 .carousel .mission.content .cont.type03>li>img,
 .carousel .mission.content .cont.type04>li>img,
-.carousel .mission.content .cont.type05>li>img{width: 200px;}
+.carousel .mission.content .cont.type05>li>img,
+.carousel .mission.content .cont.type06>li>img{width: 200px;}
 .carousel .mission.content .cont.type04>li,
-.carousel .mission.content .cont.type05>li{margin: 25px 0;}
+.carousel .mission.content .cont.type05>li,
+.carousel .mission.content .cont.type06>li{margin: 25px 0;}
 
 @media (min-width: 992px) {
+	.carousel .mission.content{height: 462px;}
 	.carousel .mission.content .cont{width: 970px; margin: 0 auto;}
 	.carousel .mission.content .cont li{width:47%; float: left;}
 	.carousel .mission.content .cont li.plus{padding:69px 0; width: 6%;}
@@ -268,6 +271,7 @@ svg rect{fill:#00d2ff;}
 	.carousel .mission.content .cont.type03>li{width: 100%;}
 	.carousel .mission.content .cont.type04>li{width: 33.333%; margin: 0;}
 	.carousel .mission.content .cont.type05>li{width: 50%; margin: 0;}
+	.carousel .mission.content .cont.type06>li{width: 20%; margin: 0;}
 }
 
 .stock:after,
