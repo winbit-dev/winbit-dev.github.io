@@ -639,12 +639,17 @@
 					
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane fade in active" id="tab-volume">
-							<div id="carousel-volume" class="carousel slide" data-ride="carousel" data-interval="false">
+							<div id="carousel-volume" class="carousel slide wow bounceInLeft animated" data-wow-duration="1000ms" data-wow-delay="100ms" data-ride="carousel" data-interval="false">
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-volume" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-volume" data-slide-to="1"></li>
+									<li data-target="#carousel-volume" data-slide-to="2"></li>
+								</ol>
 								<!-- Wrapper for slides -->
 								<div class="carousel-inner" role="listbox">
 
 									<div class="item active">
-										<div class="mission content wow bounceInLeft animated" data-wow-duration="1000ms" data-wow-delay="100ms">
+										<div class="mission content">
 											<h4>Volume &amp; Know-how</h4>
 											<ul class="cont">
 												<li>
@@ -669,8 +674,10 @@
 												</li>
 											</ul>
 										</div>
-
-										<div class="mission content bounceInRight animated" data-wow-duration="1000ms" data-wow-delay="150ms">
+									</div>	
+									
+									<div class="item">
+										<div class="mission content">
 											<h4>Dominate the Market in Advance</h4>
 											<ul class="cont">
 												<li>
@@ -684,8 +691,10 @@
 												</li>
 											</ul>
 										</div>
-
-										<div class="mission content bounceInLeft animated" data-wow-duration="1000ms" data-wow-delay="200ms">
+									</div>	
+									
+									<div class="item">
+										<div class="mission content">
 											<h4>New Users</h4>
 											<ul class="cont type01">
 												<li>
@@ -703,6 +712,14 @@
 										</div>
 									</div>
 								</div>
+								<a class="left carousel-control" href="#carousel-volume" role="button" data-slide="prev">
+									<span class="fas fa-angle-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-volume" role="button" data-slide="next">
+									<span class="fas fa-angle-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
 							</div>
 						</div>
 						
@@ -712,7 +729,7 @@
 								<div class="carousel-inner" role="listbox">
 									<div class="item active">
 										<div class="mission content bounceInLeft animated" data-wow-duration="1000ms" data-wow-delay="100ms">
-											<ul class="cont type02">
+											<ul class="cont type06">
 												<li>
 													<img src="img/icon/coins.png" alt=""/>
 													<p>Number of Altcoins</p>
@@ -722,10 +739,7 @@
 													<img src="img/icon/medal.png" alt=""/>
 													<p>Verified of Altcoins<span>Caver ICO</span></p>
 												</li>
-											</ul>
-										</div>
-										<div class="mission content bounceInRight animated" data-wow-duration="1000ms" data-wow-delay="150ms">
-											<ul class="cont type03">
+												<li class="plus"><i class="fas fa-plus"></i></li>
 												<li>
 													<img src="img/icon/reunion.png" alt=""/>
 													<p>Professional Committees</p>
