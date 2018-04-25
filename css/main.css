@@ -30,6 +30,7 @@ body > section,
 .devider:after{left:10px;}
 }
 .mt50{margin-top:50px;}
+.mt70{margin-top:70px;}
 .mt100{margin-top:100px;}
 .mb25{margin-bottom:25px;}
 .mb50{margin-bottom:50px;}
@@ -76,7 +77,7 @@ body > section,
 .counters-item p{font-size:14px;line-height:24px;margin-top:15px;text-transform:uppercase;color:#00d2ff;font-weight:600;}
 .ranking,.missions{background-color:#f4f7f9;}
 .ranking .sec-title h3{color:#062033;}
-.total-volume{width: 100%; text-align: center; padding-top: 50px; clear: both; font-weight: 800; font-size: 50px; line-height:1.6; color: #062033;}
+.total-volume{width: 100%; text-align: center; padding-top: 70px; clear: both; font-weight: 800; font-size: 46px; line-height:1.6; color: #062033;}
 .total-volume span{font-size: 14px; font-weight: 600; display: block; color: #6a737b;}
 .service-item{margin:50px 0 0;}
 .service-icon{border:1px solid #00d2ff;border-radius:50%;color:#00d2ff;float:left;}
