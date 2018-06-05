@@ -291,3 +291,40 @@ svg rect{fill:#00d2ff;}
 @media (min-width: 640px) {
 	.pie>img{max-width: 505px;}
 }
+
+.btn-video{background-color: #38a3ce; font-weight: 500; border-radius: 0; padding: 8px 20px; margin-top: 30px; color: #FFF !important; font-size: 16px;}
+.modal-content{border-radius: 0;}
+.modal-open{padding-right: 0 !important;}
+.modal-open .modal{padding-right: 0 !important;}
+.modal .close{width: 40px; height: 40px; opacity:0.5; border-radius: 100%; background-color: rgba(0,0,0,1.00); color: #FFF; text-shadow: none; position: absolute; top: -45px; right: 0; z-index: 5;}
+@media (min-width: 1024px){
+.modal-lg{width: 978px;}
+}
+@media (min-width: 1152px){
+.modal-lg{width: 1106px;}
+}
+@media (min-width: 1280px){
+.modal-lg{width: 1234px;}
+}
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.modal video{font-size:1; display: block !important;}
+
+
+
